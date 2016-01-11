@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+  <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
   </head>
 
   <body>
-    <h1>This is a header.</h1>
-    <p>This is a paragraph.</p>
-
-    <img src="images/seals.jpg">
-    <h2>More Sea creatures.</h2>
-
-    <ul>
-      <li>Walruses</li>
-      <li>octopuses</li>
-      <li>clam worms</li>
-      <li>oysters</li>
-    </ul>
-
+    <div class="container">
+      <h1>Seals</h1>
+      <div class="image-hidden">
+        <p>Click here to see a cute picture!</p>
+      </div>
+      <div class="image-shown">
+        <p>Click here to hide the picture!</p>
+        <img src="images/seals.jpg">
+      </div>
+    </div>
   </body>
 </html>
